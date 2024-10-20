@@ -44,8 +44,8 @@ df_lstat2       = m1.preprop_lstat(df_lstat, df_geodat_plz, pdict)
 gdf_lstat3       = m1.count_plz_occurrences(df_lstat2)
 
 
-df_buildings    = gpd.read_file("datasets/geb/gebaeude.shp")    #= pd.read_csv("datasets/" + pdict["file_buildings"],      sep=",", decimal=",")
-df_buildings2   = m1.preprop_geb(df_buildings, pdict)                          # Data Quality Inssues
+# df_buildings    = gpd.read_file("datasets/geb/gebaeude.shp")    #= pd.read_csv("datasets/" + pdict["file_buildings"],      sep=",", decimal=",")
+# df_buildings2   = m1.preprop_geb(df_buildings, pdict)                          # Data Quality Inssues
 
 
 df_residents    = pd.read_csv("datasets/" + pdict["file_residents"],      sep=",", decimal=".") 
