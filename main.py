@@ -2,7 +2,7 @@
 # currentWorkingDirectory = "C:\\(...)\\Lec7_ Geo-Prediction"
 # currentWorkingDirectory = "C:\\1 - eigenes\\Lehrauftrag - BHT\\Vorlesungsreihe WS24-25\\src_project"
 # Docker:
-currentWorkingDirectory = "/"
+currentWorkingDirectory = "/mount/src/berlingeoheatmap1/"
 
 # -----------------------------------------------------------------------------
 import os
