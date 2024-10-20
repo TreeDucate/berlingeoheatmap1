@@ -9,4 +9,5 @@ plotly
 dash
 streamlit
 streamlit_folium
-folium
+Folium
+-e .

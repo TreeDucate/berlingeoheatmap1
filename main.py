@@ -10,7 +10,7 @@ os.chdir(currentWorkingDirectory)
 print("Current working directory\n" + os.getcwd())
 
 import pandas                        as pd
-from core import HelperTools              as ht
+from core.HelperTools import HelperTools as ht
 
 # -----------------------------------------------------------------------------
 from core import methods                  as m1
