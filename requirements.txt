@@ -10,4 +10,3 @@ dash
 streamlit
 streamlit_folium
 Folium
--e .
