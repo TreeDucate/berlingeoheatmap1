@@ -10,10 +10,10 @@ os.chdir(currentWorkingDirectory)
 print("Current working directory\n" + os.getcwd())
 
 import pandas                        as pd
-import core.HelperTools              as ht
+import HelperTools              as ht
 
 # -----------------------------------------------------------------------------
-import core.methods                  as m1
+import methods                  as m1
 
 # -----------------------------------------------------------------------------
 import geopandas                     as gpd
